@@ -1,4 +1,4 @@
 # Exercises
 
- - [Exercise 1](exercise1/README.md): GaAs band structure
- - [Exercise 2](exercise2/README.md): GaAs DOS
+ - [Exercise 1]: Benzene and graphene, getting used to QE
+ - [Exercise 2]: Optimizing cutoff energym kgrid and lattice constant in bulk Si

@@ -4,8 +4,8 @@
 
 **Steps to perform:**
 
-1. Read the `ecutwfc.sh` script and try to understand it.
+1. Read the `scan_ecut.sh` script and try to understand it.
 
 2. To run the example, execute:
 
-       ./ecutwfc.sh
+       bash ./scan_ecut.sh

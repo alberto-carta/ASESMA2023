@@ -3,7 +3,15 @@
 -------------------------------------------------------
 
 **Steps to perform:**
+0. `xcrysden` Take a look at the benzene molecule we are going to perform the calculation on
 
+       xcrysden --pwi pw.benzene.scf.in 
+
+       Move the mouse around to take a look at the molecule.
+	
+       The "pwi" stands for quantum espresso pw.x input file.
+       For an pw.x output file, that would be "pwo".
+ 
 1. `pw.x` SCF calculation as to calculate Kohn-Sham states
 
        pw.x < pw.benzene.scf.in > pw.benzene.scf.out

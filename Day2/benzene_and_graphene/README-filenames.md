@@ -2,8 +2,8 @@
 
 - `*.in` and `*.out` -- Quantum ESPRESSO (QE) input and output (I/O)
   files, respectively
-- `*.pwtk`         -- PWTK scripts
 - `*.gp`           -- Gnuplot scripts
+- `*.py`           -- Python scripts
 - `*.sh`           -- Unix shell-scrips
 - `*.xcrysden`     -- XCrySDen scripts
 

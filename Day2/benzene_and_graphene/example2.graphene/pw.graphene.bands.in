@@ -2,7 +2,7 @@
     calculation = 'bands',
     prefix      = 'Graphene_1x1_PBE',
     outdir      = './tmp',
-    pseudo_dir  = '../../pseudo',        
+    pseudo_dir  = '../pseudo',        
  /
  
  &SYSTEM

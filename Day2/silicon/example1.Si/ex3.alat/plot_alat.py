@@ -19,6 +19,7 @@ plt.xlabel('Lattice parameter (Bohr)')
 
 # Plot data
 plt.plot(data[:, 0], data[:, 2], linestyle='-', linewidth=2, marker='o', markersize=4)
+plt.savefig("alat_scan.png", dpi=300, bbox_inches='tight')
 
 # Show the plot
 plt.show()

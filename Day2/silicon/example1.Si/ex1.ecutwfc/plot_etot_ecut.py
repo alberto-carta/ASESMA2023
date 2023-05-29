@@ -30,4 +30,5 @@ axs[1].plot(data[1:, 0], ecut_diff, linestyle='-', linewidth=2, marker='o', mark
 
 # Show the plot
 plt.tight_layout()
+plt.savefig("en_vs_ecut.png", dpi=300, bbox_inches='tight')
 plt.show()

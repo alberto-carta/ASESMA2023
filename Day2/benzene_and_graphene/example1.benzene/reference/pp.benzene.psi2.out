@@ -1,10 +1,11 @@
 
-     Program POST-PROC v.6.3 starts on 14Sep2019 at 13:13: 3 
+     Program POST-PROC v.7.0 starts on 29May2023 at 16:47:10 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
          "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
          "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
           URL http://www.quantum-espresso.org", 
      in publications or presentations arising from this work. More details at
      http://www.quantum-espresso.org/quote
@@ -12,25 +13,31 @@
      Parallel version (MPI), running on     1 processors
 
      MPI processes distributed on     1 nodes
+     10817 MiB available memory on the printing compute node when the environment starts
 
-     Reading data from directory:
-     /tmp/benzene.save/
+
+     Reading xml data from directory:
+
+     ./tmp_benz/benzene.save/
+     file C.pbe-rrkjus.UPF: wavefunction(s)  2S 2P renormalized
+     file H.pbe-rrkjus.UPF: wavefunction(s)  1S renormalized
 
      IMPORTANT: XC functional enforced from input :
-     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
      Any further DFT definition will be discarded
      Please, verify this is what you really want
 
-               file C.pbe-rrkjus.UPF: wavefunction(s)  2S 2P renormalized
-               file H.pbe-rrkjus.UPF: wavefunction(s)  1S renormalized
 
      G-vector sticks info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
      Sum        6869    2749    681               273079    69025    8635
 
+     Using Slab Decomposition
 
-     negative rho (up, down):  3.555E-04 0.000E+00
+
+     negative rho (up, down):  3.554E-04 0.000E+00
 
      Calling punch_plot, plot_num =   7
 
@@ -176,10 +183,10 @@
      Writing data to be plotted to file psi2.benzene_K001_B016.xsf
      Plot Type: 3D                     Output format: XCrySDen     
 
-     POST-PROC    :    33.86s CPU        30.44s WALL
+     POST-PROC    :     17.62s CPU     18.78s WALL
 
 
-   This run was terminated on:  13:13:33  14Sep2019            
+   This run was terminated on:  16:47:29  29May2023            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

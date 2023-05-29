@@ -102,4 +102,5 @@ plt.plot(V_fit, E_fit_quadratic, 'g-', label='Quadratic Fit')
 
 # Show the legend
 plt.legend()
+plt.savefig("fit.png", dpi=300, bbox_inches='tight')
 plt.show()
